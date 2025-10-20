@@ -6,18 +6,11 @@ This repository contains Jupyter notebooks for working with zebrafish EM + funct
 
 ## Environment Setup
 
-We recommend using Conda (or Mamba for faster installs):
+We recommend using Conda:
 
 ```bash
 conda env create -f environment.yml
 conda activate fish-env
-```
-
-or
-
-```bash
-mamba env create -f environment.yml
-mamba activate fish-env
 ```
 
 ---
@@ -40,4 +33,4 @@ https://jboulanger91.github.io/fish1.5-release/tutorials/
 
 ## Dependencies
 
-See `environment.yml` for all required packages.
+All required packages are listed in `environment.yml`, which defines an environment named `fish-env`.
